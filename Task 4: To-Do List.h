@@ -9,7 +9,7 @@ class List{
 public:
     vector<pair<string,string>> list;
     void add(string& str);
-    void view(List& lst);
+    void view();
     void remove(int x);
     void task_completed(int x);
 
